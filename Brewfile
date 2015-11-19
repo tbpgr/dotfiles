@@ -73,4 +73,5 @@ cask 'virtualbox'
 cask 'google-japanese-ime'
 cask 'tomighty'
 cask 'heroku-toolbelt'
+cask 'visual-studio-code'
 
