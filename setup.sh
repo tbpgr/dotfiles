@@ -37,8 +37,8 @@ do
   fi
 done
 
-
-if ! [ -e `echo $PATH|grep anyenv` ]; then
+# ** anyenv settings **
+if ! [ $(echo $PATH | grep anyenv) ]; then
   echo "\tclone anyenv"
   git clone https://github.com/riywo/anyenv ~/.anyenv
 

@@ -12,8 +12,10 @@ fi
 
 alias cc='clear'
 alias pcd='cd $(find . -maxdepth 1 -type d | peco)'
+alias backup_todos='ruby /Users/tbpgr/todos/bakup_daily.rb'
 function git(){hub "$@"}
 bindkey '^@' gcd
+set -o vi
 
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
     export WORKON_HOME=$HOME/.virtualenvs
