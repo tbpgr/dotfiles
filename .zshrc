@@ -16,6 +16,7 @@ alias backup_todos='ruby /Users/tbpgr/todos/bakup_daily.rb'
 function git(){hub "$@"}
 bindkey '^@' gcd
 set -o vi
+bindkey "^R" history-incremental-search-backward
 
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
     export WORKON_HOME=$HOME/.virtualenvs
