@@ -76,7 +76,6 @@ cask 'tomighty'
 cask 'heroku-toolbelt'
 cask 'visual-studio-code'
 cask 'commander-one'
-cask 'bettertouchtool'
 cask 'dash'
 cask 'skitch'
 
