@@ -78,4 +78,5 @@ cask 'visual-studio-code'
 cask 'commander-one'
 cask 'dash'
 cask 'skitch'
+cask 'justinmind'
 
