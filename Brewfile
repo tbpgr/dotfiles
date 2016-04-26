@@ -80,3 +80,5 @@ cask 'dash'
 cask 'skitch'
 cask 'justinmind'
 cask 'gitkraken'
+cask 'launchrocket'
+
