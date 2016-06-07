@@ -84,4 +84,5 @@ cask 'justinmind'
 cask 'gitkraken'
 cask 'launchrocket'
 cask 'atom'
+cask 'hyperswitch'
 
