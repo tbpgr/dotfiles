@@ -1,0 +1,3 @@
+function gcb() {
+   git checkout $(git branch | sed -e "s/\*/ /g" | peco)
+}
